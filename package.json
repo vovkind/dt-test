@@ -1,0 +1,15 @@
+{
+  "name": "rest-app",
+  "version": "1.0.0",
+  "description": "retrieve restaraunts",
+  "main": "index.js",
+  "scripts": {
+    "test": "testit"
+  },
+  "keywords": [
+    "restaraunt",
+    "dragontail"
+  ],
+  "author": "VB",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+/target/
+/.settings/
+/.classpath
+/.project
+/logs/
+/external_resources/
+/work/
+
+*.jpg
+*.jpeg
