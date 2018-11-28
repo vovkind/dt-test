@@ -1,0 +1,44 @@
+.upload-rest-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.upload-rest-wrapper label {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 0.5em 1.25em;
+    border-radius: 0.5em;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.upload-rest-wrapper input[type=file] {
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+}
+
+.loader-sign {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 3em;
+    position: relative;
+    width: 100%;
+    left: 0em;
+    top: -0.65em;
+    color: gray;
+    width: 20%;
+}
+
+.container .dupl-data-alert{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 0.6em;
+}

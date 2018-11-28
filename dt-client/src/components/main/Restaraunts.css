@@ -1,0 +1,43 @@
+.rest-predict-wrapper {
+    position: absolute;
+    left: 50%;
+    width: 68%;
+}
+
+.rest-predict {
+    color: gray;
+    border-radius: 0.5em;
+    border: 1px solid gray;
+    margin-top: 0.2em;
+    padding: 0.5em;
+    background: white;
+    z-index: 300;
+    box-shadow: 0 3px 2px -2px gray;
+    font-size: 1.5em;
+    position: relative;
+    width: 100%;
+    left: -50%;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.rest-predict:empty {
+    border: 0px;
+    color: transparent;
+    padding: 0;
+}
+
+.rest-predict-item,
+.rest-predict-item-highlighted {
+    margin: 0.5em 0.4em;
+}
+
+.rest-predict-item-highlighted {
+    background-color: #ececf3;
+}
+
+.rest-edit-controls {
+    position: absolute;
+    left: -1.5em;
+    font-size: 1.25em;
+}
