@@ -1,4 +1,4 @@
-package com.dt.repository;
+package com.dt.web.repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

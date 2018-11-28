@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import com.dt.data.Restaraunt;
-import com.dt.repository.RestarauntsRepository;
+import com.dt.web.repository.RestarauntsRepository;
 import com.dt.web.rest.restaraunts.geocoding.GeoCoder;
 import com.dt.web.rest.restaraunts.types.RestarauntRequestEntity;
 
